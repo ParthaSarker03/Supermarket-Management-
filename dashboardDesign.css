@@ -1,0 +1,144 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 18, 2023, 1:40:55 PM
+    Author     : ASUS
+*/
+
+.top-form{
+    -fx-background-color: #fff;
+    -fx-border-color: #000;
+    -fx-border-width: .4px .4px .2px .4px;
+
+}
+.close{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+.close:hover{
+    -fx-background-color: #c90007;
+}
+.minimize{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+.minimize:hover{
+    -fx-background-color: #ddd;
+}
+.white-bg{
+    -fx-background-color: #fff;
+    -fx-background-radius: 8px;
+}
+.shadow{
+    -fx-effect: dropshadow(three-pass-box,rgba(0,0,0,0.4),5,0,0,0);
+}
+.semi-top-form{
+    -fx-background-color: #efefef;
+    -fx-border-color: #000;
+    -fx-border-width: .2px .4px .8px .4px;
+
+}
+.nav-form{
+    -fx-background-color: linear-gradient(to top right, #d16715, #cf3a17);
+    -fx-border-color: #000;
+    -fx-border-width: .4px .4px .2px .4px;
+
+}
+.nav-btn{
+    -fx-background-color:transparent;
+    -fx-cursor: hand;
+    -fx-font-family:"Arial";
+    -fx-text-fill:#fff;
+    -fx-font-Size:14px;
+
+}
+.logout-btn{
+    -fx-background-color:#279c27;
+
+    -fx-cursor: hand;
+
+
+}
+
+.logout-btn:hover{
+    -fx-background-color:#ef1400 ;
+
+}
+
+.card1{
+    -fx-background-color: #5596e7;
+    -fx-background-radius: 8px;
+}
+.card2{
+    -fx-background-color: #cf8d1b;
+    -fx-background-radius: 8px;
+}
+.card3{
+    -fx-background-color: #8e36c9;
+    -fx-background-radius: 8px;
+}
+.textfield{
+    -fx-background-color:transparent;
+    -fx-border-color:linear-gradient(to top right, #64522c, #a8962b);
+    -fx-border-width: 0px 0px 1.2px 0px;
+
+    -fx-font-family:"Tahoma";
+
+    -fx-font-Size:14px;
+
+}
+.textfield:focused{
+
+    -fx-border-width: 0px 0px 2.5px 0px;
+
+}
+.combobox{
+    -fx-background-color:transparent;
+    -fx-border-color:linear-gradient(to top right, #64522c, #a8962b);
+    -fx-border-width: 1.2px ;
+
+    -fx-font-family:"Tahoma";
+
+    -fx-font-Size:14px;
+}
+.combobox:focused{
+    -fx-border-width:  2.5px ;
+}
+.search{
+    -fx-background-color:transparent;
+    -fx-border-color:linear-gradient(to top right, #64522c, #a8962b);
+    -fx-border-width: 1.2px ;
+    -fx-background-radius: 8px;
+    -fx-padding: 0px 0px 0px 30px;
+    -fx-font-family:"Tahoma";
+    -fx-font-Size:14px;
+
+}
+.search:focused{
+    -fx-border-width:3px;
+}
+.table-view{
+    -fx-background-color:transparent;
+    -fx-border-color:linear-gradient(to top right, #64522c, #a8962b);
+    -fx-border-width: 2px ;
+    -fx-border-radius: 5px;
+
+}
+.table-view.table-column{
+    -fx-alignment: CENTER;
+
+}
+.table-view.column-header-background{
+    -fx-border-color:linear-gradient(to top right, #64522c, #a8962b);
+    -fx-background-insets: 0 0 0 0;
+
+}
+.table-view.column-header,filter{
+    -fx-background-color:transparent;
+    -fx-side: 50px;
+
+}
+

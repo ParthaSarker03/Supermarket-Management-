@@ -1,0 +1,68 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 15, 2023, 1:03:28 PM
+    Author     : ASUS
+*/
+
+.left-form{
+    -fx-background-color: linear-gradient(to top right, #d16715, #cf3a17);
+    -fx-border-color: #000;
+    -fx-border-width: .4px 0px .4px .4px;
+    
+}
+.right-form{
+    -fx-background-color: #fff;
+    -fx-border-color: #000;
+    -fx-border-width: .4px .4px .4px 0px;
+    
+}
+.textfield{
+    -fx-background-color: linear-gradient(to bottom,#efefef,#eee);
+    -fx-background-radius: 8px;
+    -fx-border-color: #000;
+    -fx-border-width: 0px 0px .8px 0px;
+    -fx-font-family:"Tahoma";
+    -fx-font-size:14px;
+    -fx-border-radius: 8px;
+}
+
+.textfield:focused{
+    -fx-background-color: #efefef;
+    -fx-border-width: 0px 0px 1.8px 0px;
+    
+}
+
+.login-btn{
+    -fx-background-color: linear-gradient(to bottom,#2365a7,#213c57);
+    -fx-background-radius: 8px;
+    -fx-cursor: hand;
+    -fx-font-family:"Arial";
+    -fx-font-Size:14;
+    
+}
+
+.login-btn:hover{
+    -fx-background-color: linear-gradient(to bottom,#3d85cc,#295986);
+    -fx-text-fill: #000;
+}
+
+.close{
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+}
+
+.close:hover{
+    -fx-background-color: #c90007;
+}
+.hyperlink{
+    -fx-border-color:  transparent;
+    -fx-font-family:"Tahoma";
+    -fx-font-size:14px;
+    -fx-text-fill: #0a61b9;
+}
+.hyperlink:hover{
+    -fx-text-fill: #000;
+}
