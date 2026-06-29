@@ -106,8 +106,6 @@ Name: Partha Sarker<br>
 Email: parthasarker10701@gmail.com<br>
 Name: Bappy Chandra Devnath<br>
 Email: bappy.cse.20210204074@aust.edu<br>
-Name: Ramisa Ali Salwa<br>
-Email: ramisa.cse.20210204076@aust.edu<br>
 Name: Ibteshum khaled<br>
 Email: Ibteshum.cse.20210204059@aust.edu
 
